@@ -1,3 +1,5 @@
+include <usbc.scad>
+
 STM32Size = [20.7, 54, 5];
 
 module STM32Cube() {
@@ -5,5 +7,5 @@ module STM32Cube() {
 }
 module STM32() {
     cube([STM32Size.x, STM32Size.y, 2]);
-    translate([5.85, 0, 2]) cube([9, 7.5, 3]);
+    translate([5.85, 0, 2]) cube(USBCSize);
 }

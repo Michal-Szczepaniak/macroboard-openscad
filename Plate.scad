@@ -21,4 +21,4 @@ module Plate(x, y, wallWidth, switchSize, switchSeparation) {
     }
 }
 
-//Plate(5, 6, 5, 14, 5);
+//Plate(5, 12, 5, 14, 5);
